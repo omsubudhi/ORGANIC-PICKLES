@@ -7,17 +7,17 @@ import { Button } from "@/components/ui/button";
 const products = [
   {
     name: "Tomato Sliced Pickle",
-    price: "₹149 (200g) / ₹329 (500g)",
+    price: "₹120 (200g) / ₹220 (500g)",
     image: "/tomato-pickle.jpg",
   },
   {
     name: "Mix Pickle",
-    price: "₹149 (200g) / ₹329 (500g)",
+    price: "₹130 (200g) / ₹240 (500g)",
     image: "/mix-pickle.jpg",
   },
   {
     name: "Mango Pickle",
-    price: "₹179 (200g) / ₹349(500g)",
+    price: "₹110 (200g) / ₹200 (500g)",
     image: "/mango-pickle.jpg",
   },
 ];
@@ -55,5 +55,4 @@ export default function PickleStore() {
         <p className="text-sm">After payment, send screenshot and address to WhatsApp: 7811039572</p>
       </div>
     </div>
-  );
-}
+
